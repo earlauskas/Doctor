@@ -1,6 +1,6 @@
 let pos = 0;
 const pacArray = [
-  ['PacMan1.png', 'PacMan2.png'],
+  ['doctor.png', 'PacMan2.png'],
   ['PacMan3.png', 'PacMan4.png'],
 ];
 let direction = 0;
@@ -24,7 +24,7 @@ function makePac() {
   let game = document.getElementById('game');
   let newimg = document.createElement('img');
   newimg.style.position = 'absolute';
-  newimg.src = 'PacMan1.png';
+  newimg.src = 'doctor.png';
   newimg.width = 100;
 
   // TODO: set position here
